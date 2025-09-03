@@ -1,0 +1,20 @@
+workshop1:
+เป็นการตั้งค่า let score=49;
+เเเล้วกำหนด Ifของเเต่ละหัวข้อไว้ว่า scoreมากกว่าหรือเท่ากับ100 ให้เกรดAหรือถ้า scoreมากกว่าหรือเท่ากับ70ให้ตัดเกรดB
+
+workshop2:
+เริ่มต้นสินค้าราคาตั้งต้นที่let productPrice: 1000 บาท 
+let discountPercent = 20; ลด 20% 
+เช็กเงื่อนไขโดยการใช้ifไปที่ละเงื่อนไข
+
+workshop3:
+ใส่odject ตามที่โจทย์กำหนดเป็นนักเรียนสามคน เเละในobjectมีชื่อ,อายุ,เกรดต่อไปก็สร้างลิซในการเรียกใช้คือstudents1,students2,students3
+ใช้forEachเข้ามาช่วยในการวนลุปเเละshowStudentCount(students)ใช้เรียกค่าเเสงดผลรวม
+
+workshop4:การสร้างobject คือ let products 6อย่าง ในodjectมีprice,discount
+เเล้วก็มีการเรียกใช้function calculateTotal( การรวมผลรวม)เเละกาใช้ forEach 
+console.log("--------------------------------------");
+console.log(`Total price after discount: $${total.toFixed(2)}`); //ประกาศเรียกใช้
+
+workshop5:กาารส้รางlet students จำนวน 6คนในobject มีชื่อเเละคะเเนน
+function filterPassedStudents(minScore) { ทำการเช๊คคะเเนน) เเละใช้forEachเในการลูปปช่วยเเสดงผลลัพะ์ตามโจทย์
